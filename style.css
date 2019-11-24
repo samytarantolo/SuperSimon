@@ -1,0 +1,120 @@
+body {
+    background-color: rgba(136, 136, 136, 0.452);
+  }
+
+
+.button {
+    z-index: 1;
+    border: 0px;
+    border-radius: 50px;
+    font-size: 50px;
+    background-color: #a55e21;
+    color: white;
+    position: sticky;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  button:hover{
+    background-color: #23a521;
+  }
+
+  .button2 {
+    z-index: 1;
+    border: 0px;
+    border-radius: 50px;
+    font-size: 50px;
+    background-color: #a321a5;
+    color: white;
+    position: sticky;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .button2:hover{
+    background-color: #2144a5;
+  }
+
+    .text1 {
+        position: absolute;
+        font-family: 'Original Surfer', cursive;
+        color:white;
+        margin-left: 80px;
+        margin-top: 35px;
+
+        padding-top: 30px;
+        padding-right: 30px;
+        text-align: center;
+        background: #00ccff;
+        width: 200px;
+      }
+
+      .text2 {
+        position: absolute;
+        font-family: 'Original Surfer', cursive;
+        color:white; 
+        margin-left: 80px;
+        margin-top: 65px;
+
+        padding-top: 10px;
+        padding-right: 30px;
+        padding-bottom:30px;
+        text-align: center;
+        background: #00ccff;
+        width: 200px;
+      }
+
+      #buttonupleft {
+        position: absolute;
+        height: 250px;
+        width: 250px;
+        border-radius: 250px 0 0 0;
+        -moz-border-radius: 250px 0 0 0;
+        background: #23a521;
+        top: 60%;
+        left: 50%;
+        margin: -250px 0px 0px -250px;
+      }
+      
+      #buttonupright {
+        position: absolute;
+        height: 250px;
+        width: 250px;
+        border-radius: 0 250px 0 0;
+        -moz-border-radius: 0 250px 0 0;
+        background: #a321a5;
+        top: 60%;
+        left: 50%;
+        margin: -250px 0px 0px 0px;
+      }
+      
+      #buttondownleft {
+        position: absolute;
+        height: 250px;
+        width: 250px;
+        border-radius: 0 0 0 250px;
+        -moz-border-radius: 0 0 0 250px;
+        background: #a55e21;
+        top: 60%;
+        left: 50%;
+        margin: 0px -250px 0px -250px;
+      }
+      
+      #buttondownright {
+        position: absolute;
+        height: 250px;
+        width: 250px;
+        border-radius: 0 0 250px 0;
+        -moz-border-radius: 0 0 250px 0;
+        background: #2144a5;
+        top: 60%;
+        left: 50%;
+        margin: 0px 0px -250px 0px;
+      }
+      
+      #buttonupleft:hover {background-color:#04ff00;}
+      #buttonupright:hover {background-color:#ef00ff;}
+      #buttondownleft:hover {background-color:#ff7600;}
+      #buttondownright:hover {background-color:#00f3ff;}
